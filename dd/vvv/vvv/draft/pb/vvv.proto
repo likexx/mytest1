@@ -15,5 +15,6 @@ message HelloReply {
 
 service vvv {
     rpc SayHello123 (HelloRequest) returns (HelloReply);
+    rpc SayHello456 (HelloRequest) returns (HelloReply);
 }
 
